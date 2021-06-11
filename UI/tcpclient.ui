@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TcpClient</class>
+ <widget class="QWidget" name="TcpClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>447</width>
+    <height>396</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit_read">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>77</y>
+     <width>408</width>
+     <height>134</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_close">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>40</y>
+     <width>93</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>27</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>断 开</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_port">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>13</y>
+     <width>208</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>45</y>
+     <width>93</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>服务器IP：</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>13</y>
+     <width>93</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>25</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>服务器端口：</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_connect">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>10</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>28</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>连 接</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_ip">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>45</y>
+     <width>208</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>25</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_write">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>218</y>
+     <width>408</width>
+     <height>135</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_send">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>360</y>
+     <width>93</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>27</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>发 送</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_send_2">
+   <property name="geometry">
+    <rect>
+     <x>262</x>
+     <y>360</y>
+     <width>161</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>0</width>
+     <height>27</height>
+    </size>
+   </property>
+   <property name="text">
+    <string>发送当前页面配置</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
